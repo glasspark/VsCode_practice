@@ -1,0 +1,39 @@
+/* 전체 화면 중앙에 계산기 위치 */
+.calculator {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 화면 설정 */
+#display {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 버튼 스타일 */
+.buttons button {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* 버튼 호버 이펙트 */
+.buttons button:hover {
+    background-color: #ddd;
+}
